@@ -11,4 +11,3 @@ Projeto com o objetivo de mostrar um formulário responsivo, com áreas obrigat�
 - HTML
 - CSS
 - JavaScript
-- 
