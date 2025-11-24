@@ -1,0 +1,10 @@
+:root {
+    --cor-placeholder: #A8A8A8;
+    --cor-botao: #3CCC87;
+    --cor-erro: #F52E2E;
+    --cor-valido: #00C22B;
+
+    --tamanho-fonte-grande: 1.25rem;
+    --tamanho-fonte-padrao: 0.93rem;
+    --tamanho-fonte-erro: 0.5rem;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio de um formulário com validação javascript">
+    <title>Desafio - Formulário com validação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="texto">
+                <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+
+            </div>
+            <form class="formulario" id="form">
+                <div class="form-section">
+                    <label for="nome"></label>
+                    <input type="text" class="campo nome" placeholder="Nome completo *" name="nome">
+                    <span class="mensagem-erro">*campo obrigatório</span>
+                </div>
+                <div class="form-section">
+                    <label for="email"></label>
+                    <input type="email" class="campo email" placeholder="Email *" name="email">
+                    <span class="mensagem-erro">*campo obrigatório</span>
+                </div>
+                <div class="form-section">
+                    <label for="telefone"></label>
+                    <input type="number" class="campo telefone" placeholder="Telefone *" name="telefone">
+                    <span class="mensagem-erro">*campo obrigatório</span>
+                </div>
+                <div class="form-section">
+                    <label for="mensagem"></label>
+                    <textarea class="campo mensagem" placeholder="Mensagem *" name="mensagem"></textarea>
+                    <span class="mensagem-erro">*campo obrigatório</span>
+                </div>
+                <p class="campos-obrigatorios">*campos obrigatórios</p>
+                <button type="submit" id="btn" value="">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="src/js/form-validation.js"></script>
+</body>
+
+</html>
